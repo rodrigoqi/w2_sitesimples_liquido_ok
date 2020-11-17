@@ -1,0 +1,78 @@
+@font-face{
+    src: url("../fonts/chops.ttf");
+    font-family: "chops";
+}
+
+@font-face{
+    src: url("../fonts/chasd.ttf");
+    font-family: "chasd";
+}
+
+@font-face{
+    src: url("../fonts/wwDigital.ttf");
+    font-family: "digital";
+}
+
+body{
+   background-image: url("../img/space.jpg");
+   background-size: 100% 100%; 
+}
+
+#principal{
+    width: 80%;
+    margin: auto;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 200px;
+    float: top;
+    background-image: url("../img/header.jpg");
+    background-size: 100% 100%;
+}
+
+#menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: blueviolet;
+}
+
+.item{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item:hover{
+    background-color: #2E2E2E;
+    transition: background-color 1s;
+}
+
+#texto{
+    width: 96%;
+    padding:2%;
+    float: left;
+    text-align: justify;
+    font-size: 22px;
+    background-color: rgba(255,255,255,0.5);
+    font-family: "digital";
+    margin-top: 20px;
+}
+
+.foto{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.foto img{
+    height: 100%;
+    width: 100%;
+}
